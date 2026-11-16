@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "domain": "masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com",
+  "pageId": "default",
+  "rootIds": [
+    "site-shell"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Síntesis aditiva, sustractiva y FM | Lynx Pardelle",
+    "description": "Compara tres maneras de construir un timbre a partir de oscilaciones y armónicos. Aprende qué cambian los filtros, las envolventes y los moduladores cuando partes de una nota sencilla.",
+    "canonical": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/",
+    "robots": "index,follow",
+    "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp"
+    }
+  }
+}
