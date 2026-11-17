@@ -522,7 +522,7 @@
           "topic-heading-0"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #883c78"
         }
       }
@@ -551,7 +551,7 @@
           "topic-heading-1"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #883c78"
         }
       }
@@ -580,7 +580,7 @@
           "topic-heading-2"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #883c78"
         }
       }
@@ -609,7 +609,7 @@
           "topic-heading-3"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #883c78"
         }
       }
@@ -638,7 +638,7 @@
           "topic-heading-4"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #883c78"
         }
       }
@@ -667,7 +667,7 @@
           "topic-heading-5"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #883c78"
         }
       }
@@ -677,7 +677,7 @@
       "type": "text",
       "config": {
         "id": "outcome-title",
-        "text": "Qué vas a trabajar",
+        "text": "¿En qué se distinguen la síntesis aditiva, sustractiva y FM?",
         "tag": "h2",
         "styles": {
           "margin": "0",
@@ -695,7 +695,7 @@
       "type": "text",
       "config": {
         "id": "outcome-copy",
-        "text": "Reconocer cómo se construye un sonido en cada método y ajustar parámetros que cambian su carácter.",
+        "text": "Construyes o filtras armónicos en los dos primeros métodos y pruebas la modulación de frecuencia en FM. Escuchas cómo cada ajuste cambia el carácter del timbre.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -746,15 +746,11 @@
         "tag": "div",
         "components": [
           "topic-title",
-          "topic-0",
-          "topic-1",
-          "topic-2",
-          "topic-3",
-          "topic-4",
-          "topic-5"
+          "topic-grid"
         ],
         "styles": {
-          "minWidth": "0"
+          "minWidth": "0",
+          "marginBlockEnd": "clamp(18px, 3vw, 32px)"
         }
       }
     },
@@ -815,7 +811,6 @@
       "config": {
         "tag": "div",
         "components": [
-          "outcome",
           "activity"
         ],
         "styles": {}
@@ -827,8 +822,9 @@
       "config": {
         "tag": "div",
         "components": [
-          "overview",
-          "topic-list"
+          "outcome",
+          "topic-list",
+          "overview"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -836,9 +832,7 @@
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
           "paddingBlock": "clamp(40px, 7vw, 86px)",
-          "display": "grid",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
-          "gap": "clamp(17px, 4.5vw, 58px)"
+          "display": "block"
         }
       }
     },
@@ -1164,7 +1158,8 @@
         "tag": "section",
         "components": [
           "offer-contact",
-          "return-link"
+          "return-link",
+          "portfolio-reference"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -1420,6 +1415,44 @@
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
           "minHeight": "100vh"
+        }
+      }
+    },
+    {
+      "id": "portfolio-reference",
+      "type": "link",
+      "config": {
+        "text": "Ver el trabajo musical de Lynx Pardelle",
+        "href": "https://lynxpardelle.com/music",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
+        }
+      }
+    },
+    {
+      "id": "topic-grid",
+      "type": "container",
+      "config": {
+        "tag": "div",
+        "components": [
+          "topic-0",
+          "topic-1",
+          "topic-2",
+          "topic-3",
+          "topic-4",
+          "topic-5"
+        ],
+        "styles": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, max(168px, 30%)), 1fr))",
+          "columnGap": "clamp(12px, 2.5vw, 28px)",
+          "rowGap": "0",
+          "alignItems": "start"
         }
       }
     }

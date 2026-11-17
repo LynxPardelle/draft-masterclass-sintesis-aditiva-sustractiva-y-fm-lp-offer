@@ -7,12 +7,63 @@
   ],
   "modalRootIds": [],
   "seo": {
-    "title": "Síntesis aditiva, sustractiva y FM | Lynx Pardelle",
-    "description": "Compara tres maneras de construir un timbre a partir de oscilaciones y armónicos. Aprende qué cambian los filtros, las envolventes y los moduladores cuando partes de una nota sencilla.",
+    "title": "Masterclass de síntesis aditiva, sustractiva y FM | Lynx Pardelle",
+    "description": "Compara tres métodos digitales para crear timbres. Trabaja armónicos, formas de onda, filtros, LFO, envolventes y modulación de frecuencia.",
     "canonical": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/",
     "robots": "index,follow",
     "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-aditiva-sustractiva-y-fm-r2-14356a7b99c24ca6.webp",
+      "title": "Masterclass de síntesis aditiva, sustractiva y FM | Lynx Pardelle",
+      "description": "Compara tres métodos digitales para crear timbres. Trabaja armónicos, formas de onda, filtros, LFO, envolventes y modulación de frecuencia.",
+      "url": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/",
+      "imageAlt": "Sintetizador semimodular y pantalla de osciloscopio."
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Masterclass de síntesis aditiva, sustractiva y FM | Lynx Pardelle",
+      "description": "Compara tres métodos digitales para crear timbres. Trabaja armónicos, formas de onda, filtros, LFO, envolventes y modulación de frecuencia.",
       "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-aditiva-sustractiva-y-fm-r2-14356a7b99c24ca6.webp"
     }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/#webpage",
+        "name": "Síntesis aditiva, sustractiva y FM",
+        "description": "Compara tres métodos digitales para crear timbres. Trabaja armónicos, formas de onda, filtros, LFO, envolventes y modulación de frecuencia.",
+        "url": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Masterclasses",
+          "url": "https://music.lynxpardelle.com/formacion/masterclasses"
+        },
+        "mainEntity": {
+          "@id": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/#contenido-de-la-oferta"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "@id": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/#contenido-de-la-oferta",
+        "name": "Síntesis aditiva, sustractiva y FM",
+        "description": "Compara tres métodos digitales para crear timbres. Trabaja armónicos, formas de onda, filtros, LFO, envolventes y modulación de frecuencia.",
+        "url": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-aditiva-sustractiva-y-fm-r2-14356a7b99c24ca6.webp",
+        "provider": {
+          "@id": "https://lynxpardelle.com/#person"
+        },
+        "inLanguage": "es",
+        "offers": {
+          "@type": "Offer",
+          "name": "Una inscripción",
+          "url": "https://masterclass-sintesis-aditiva-sustractiva-y-fm.music.lynxpardelle.com/#precios",
+          "price": 1750,
+          "priceCurrency": "MXN"
+        }
+      }
+    ]
   }
 }
